@@ -5,7 +5,6 @@ function p = Neville_Aitken(x,y,interp_x)
 %%%%%% interp_x as the point to be interpolated
 %%%%%% Output:
 %%%%%% p the interpolating polynomial value at interp_x
-%%%%%% Written on 31/01/2022
 n = length(x);
 p=zeros(n,n);
 t=zeros(n,1);
