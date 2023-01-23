@@ -1,5 +1,5 @@
-function OutPut = NumEulerMethod(a,b,n,f,y,y0)
-% % Euler method 
+function [y_num,OutPut] = NumEulerMethod(a,b,n,f,y,y0)
+% % Euler method - Sara Alkiswani
 % % Inputs:
 % % a: the intial point in interval [a,b]
 % % b: the terminal point in interval [a,b]
