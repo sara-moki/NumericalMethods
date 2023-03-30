@@ -1,4 +1,5 @@
 function  PC_Mode_P_EC_m(a,b,h,IC,ySol,f)
+%%Sara Alkiswani - 30 March 2023
 n = length(a:h:b);
 y_exact=@(x) ySol(x);%Exact solution
 x = linspace(a,b,n);
